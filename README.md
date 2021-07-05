@@ -1,2 +1,2 @@
-# kive-frame-extraction-challenge
-daniel.islandman@gmail.com
+# Kive Challenges
+Check each folder for the challenge code
