@@ -1,0 +1,25 @@
+{
+  "name": "frame-extraction",
+  "version": "1.0.0",
+  "description": "A Kive challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiteralGoat/kive-challenges.git"
+  },
+  "author": "Daniel Öhman, aka. Literal Goat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiteralGoat/kive-challenges/issues"
+  },
+  "homepage": "https://github.com/LiteralGoat/kive-challenges#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@ffprobe-installer/ffprobe": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.8.3"
+  }
+}
