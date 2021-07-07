@@ -1,8 +1,8 @@
 import './App.css';
 
-import Emojis from './components/EmojiPanel'
-
 import HeaderTitle from './components/HeaderTitle'
+import Emojis from './components/EmojiPanel'
+import FooterContent from './components/FooterContent'
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <div className="App-body">
         <Emojis />
       </div>
-      <footer style={{ color: '#9ca3af', paddingBottom: '100px' }}>
-        Emoji data powered by <a style={{color: '#9ca3af', }} rel="noreferrer" target="_blank" href="https://emoji-api.com/">Open Emoji API</a>
+      <footer>
+        <FooterContent />
       </footer>
     </div>
   );

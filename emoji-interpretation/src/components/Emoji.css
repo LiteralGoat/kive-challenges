@@ -6,9 +6,10 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  font-size: 3rem;
 }
 
 .emoji-container:hover {
   background: linear-gradient(to right top, rgb(51, 255, 211), rgb(143, 223, 255));
-  cursor: pointer;
+  cursor: default;
 }
