@@ -1,13 +1,4 @@
 # The Frame Extraction Challenge
-## TOC
-1. [Challenge Description](#challenge-description)
-    1. [Documentation Task](#doc-tasks)
-2. [Though Process](#thought-process)
-    1. [Starting out](#starting-out)
-    2. [Finding out what ffmpeg is](#finding-out-what-ffmpeg-is)
-    3. [Getting the video stream](#getting-the-video-stream)
-    4. [Creating the scene function](#creating-the-scene-function)
-
 ## Challenge Description
 - [X] Design a JavaScript function `getYoutubeFrames()` that:
   - [X] Takes a Youtube url as its input
@@ -15,6 +6,14 @@
   - [X] Extracts a frame from every scene/cut of the video (hint: use ffmpeg)
   - [X] Converts every frame to jpg format with maximum 800px width
   - [X] **Returns** a list of temp paths or base64 buffers
+
+## How to run
+
+`npm install`
+
+`node index [url]`
+
+> Can't find a video to try it on? [Here](https://www.youtube.com/watch?v=8tFrGaU6p5U&t=1s) you go :wink:
 
 ## Thought Process
 ### **Starting out**
