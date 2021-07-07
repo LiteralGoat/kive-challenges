@@ -1,4 +1,16 @@
 # Emoji Interpretation Challenge - [Live Demo](https://stark-chamber-41619.herokuapp.com/)
+## How to run and build 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+> cd into the emoji-interpretation folder
+`npm install`
+
+**Scripts**
+Dev build
+`npm start`
+Production build
+`npm build`
+
 ## Challenge description
 - [x] Design a JavaScript function `guessEmoji()` that:
   - [x] Takes a string as its input (ex: "crying sad face", ":)", "going for a run")
@@ -26,15 +38,3 @@ Since the page is made for searching emojis, the natural icon is an emoji. This 
 
 **Emoji Cards**
 Initially the design was supposed to be the "dark mode" cards at the bottom of the page. Although, this didn't signigicantly make it stand out in regards to the input. Therefore I decided to mimic the cards on [kive.ai](https://kive.ai/). Furthermore, to add some interactivity, the cards got the :hover linear background turquoise. The idea of having a popup telling the user to copy, and the saying "Copied", was also planned. However, due to the time constrains the idea was scrapped. 
-
-## How to run and build 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-> cd into the emoji-interpretation folder first
-`npm install`
-
-**Scripts**
-Dev build
-`npm start`
-Production build
-`npm build`
