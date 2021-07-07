@@ -8,7 +8,7 @@
     3. [Getting the video stream](#getting-the-video-stream)
 
 ## Challenge Description
-- [ ] Design a JavaScript function `getYoutubeFrames()` that:
+- [X] Design a JavaScript function `getYoutubeFrames()` that:
   - [X] Takes a Youtube url as its input
   - [X] Fetches the video
   - [X] Extracts a frame from every scene/cut of the video (hint: use ffmpeg)
