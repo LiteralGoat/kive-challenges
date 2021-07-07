@@ -1,0 +1,62 @@
+.search-box {
+  width: 100%;
+  padding: 0 0 125px 0;
+}
+
+label {
+  position: relative;
+}
+
+input {
+  position: relative;
+  background: #202020;
+  border: 1px solid #2e2e2e;
+  border-radius: 50px;
+  color: #adadad;
+  font-size: 1.5rem;
+  outline: none !important;
+  padding: 20px 50px 20px 70px;
+  width: 500px;
+}
+
+.input-emoji {
+  position: absolute;
+  left: 25px;
+  top: -4px;
+  font-size: 2.2rem;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 25px;
+  grid-template-rows: auto;
+  padding-bottom: 100px;
+}
+
+.status-message {
+  font-size: 3rem;
+}
+
+.emoji-container {
+  height: 200px;
+  width: 400px;
+  background: linear-gradient(to right top, rgb(89, 48, 229), rgb(206, 122, 238));
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size: 3rem;
+}
+
+.emoji-container:hover {
+  background: linear-gradient(to right top, rgb(51, 255, 211), rgb(143, 223, 255));
+  cursor: pointer;
+}
+

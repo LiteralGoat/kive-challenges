@@ -1,0 +1,8 @@
+h1 {
+  background-clip: text;
+  display: inline-block;
+  -webkit-text-fill-color: #00000000;
+  background-image: linear-gradient(to right top, rgb(89, 48, 229), rgb(206, 122, 238));
+  font-size: 4rem;
+  margin: 100px;
+}
