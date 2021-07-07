@@ -6,6 +6,7 @@
     1. [Starting out](#starting-out)
     2. [Finding out what ffmpeg is](#finding-out-what-ffmpeg-is)
     3. [Getting the video stream](#getting-the-video-stream)
+    4. [Creating the scene function](#creating-the-scene-function)
 
 ## Challenge Description
 - [X] Design a JavaScript function `getYoutubeFrames()` that:
