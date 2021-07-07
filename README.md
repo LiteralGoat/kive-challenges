@@ -1,4 +1,4 @@
-# Emoji Interpretation Challenge - [Live Demo](https://stark-chamber-41619.herokuapp.com/){:target="_blank"}
+# Emoji Interpretation Challenge - [Live Demo](https://stark-chamber-41619.herokuapp.com/)
 ## Challenge description
 - [x] Design a JavaScript function `guessEmoji()` that:
   - [x] Takes a string as its input (ex: "crying sad face", ":)", "going for a run")
