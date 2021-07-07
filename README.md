@@ -21,7 +21,7 @@ First I need to find out what how to fetch a video with a url from youtube and w
 I'll initialize an npm project and an index.js file to outline the project.
 
 ### **Finding out what ffmpeg is**
-It seems that [ffmpeg](http://ffmpeg.org/) is some sort of video and audio handler. I'll need the ability to read the file, detect scene changes and then convert the frame to a screenshot / snapshot that is that is then outputted in an ./output folder.
+It seems that [ffmpeg](http://ffmpeg.org/) is some sort of video and audio handler. I'll need the ability to read the file, detect scene changes and then convert the frame to a screenshot / timestamp that is that is then outputted in a ./temp folder.
 
 ### **Getting the video stream**
 The package [ytdl](https://www.npmjs.com/package/ytdl-core) is very useful for easily getting the video from youtube, as in the challenge desc. Then I have to create an async function and return the value. 
