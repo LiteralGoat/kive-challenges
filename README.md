@@ -13,13 +13,7 @@
   - [X] Fetches the video
   - [X] Extracts a frame from every scene/cut of the video (hint: use ffmpeg)
   - [X] Converts every frame to jpg format with maximum 800px width
-  - [ ] **Returns** a list of temp paths or base64 buffers
-
-### Documentation Tasks (explain / document) 
-- [ ] Subtask 1
-- [ ] Subtask 2
-- [ ] Subtask 3
-- [ ] Subtask 4
+  - [X] **Returns** a list of temp paths or base64 buffers
 
 ## Thought Process
 ### **Starting out**
@@ -33,4 +27,4 @@ It seems that [ffmpeg](http://ffmpeg.org/) is some sort of video and audio handl
 The package [ytdl](https://www.npmjs.com/package/ytdl-core) is very useful for easily getting the video from youtube, as in the challenge desc. Then I have to create an async function and return the value. 
 
 ### **Creating the scene function**
-The ffmpeg filter that I could find which would detect every scene was `select='gt(scene\,0.2)'`, where the prefix was `-vf` or `-filter:v` (I used -vf for its simplicity). 
+The ffmpeg filter that I could find which would detect every scene was `select='gt(scene\,0.2)'`, where the prefix was `-vf` or `-filter:v` (I used -vf for its simplicity). Then scale it to 800px with `scale='min(800,iw)':-1` (-1 can be used synonymously with auto here). Then puts a timestamp for variable frame rate with `-vsync vfr` as to not print every frame.
