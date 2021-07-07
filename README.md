@@ -16,7 +16,7 @@ API-key: 35b220d2d33078382c98aafc63291d85dc07d0e7
 ## How to run and build 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> cd into the 'emoji-interpretation folder first
+> cd into the emoji-interpretation folder first
 `npm install`
 
 **Scripts**
